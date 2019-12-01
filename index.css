@@ -1,0 +1,200 @@
+
+body{
+    font-family: 'Open Sans', sans-serif ;
+    font-size:20px;
+    height: calc(500px - 109px)!important;
+    background-color:white;
+}
+nav a{
+    font-weight:600;
+}
+.bannerPood{
+    height:684px;
+    width:auto;
+    background-image:url("banners/bannerPood2.jpeg");
+    background-size:cover;
+    background-position-y: center;
+}
+.bannerIndex{
+    height:684px;
+    width:auto;
+    background-image:url("banners/banner.jpg");
+    background-size:cover;
+    background-position-y: center;
+}
+#center{
+    position:relative;
+    top:40%;
+    transform:translate(0%,-50%);
+}
+#center2{
+    position:relative;
+    top:50%;
+    transform:translate(0%,-50%);
+}
+#sectionTitle{
+    height:76px;
+    background-color:#748779;
+    box-shadow:0px 0px 9px rgb(0, 0, 0, 0.16);
+    z-index:10;
+}
+footer{
+    height:76px;
+    background-color:#748779;
+    box-shadow:0px 0px 9px rgb(0, 0, 0, 0.16);
+}
+#footer{
+    height:100%;
+}
+.container{
+    padding-right:30px !important;
+    padding-left:30px !important;
+}
+.container2{
+    margin:0;
+    position:relative;
+    top:-109px;
+}
+.container3{
+    margin:0;
+    position:relative;
+    top:-109px;
+    background-color:#ECEEEF;
+}
+.cardFix{
+    border:none;
+    border-radius:0;
+}
+.card-deck{
+    padding:30px 0px;
+}
+.card-body{
+    height:auto;
+    margin-top:0.5rem;
+    background-color:white;
+}
+.productTitle{
+    margin-bottom:0px !important;
+}
+.imgasi{
+    width:100%;
+    height:auto;
+}
+.fixer{
+    background-color:white;
+    padding:20px;
+}
+#middleLeft{
+    margin-right:0px;
+}
+#middleRight{
+    margin-left:30px;
+}
+.bottomLinks{
+    padding-right:1.3rem;
+    cursor: pointer;
+    position: relative;
+    top:50%;
+    transform: translate(0%,-50%);
+}
+#lastLink{
+    padding:0;
+}
+.bottomInfo{
+    position: relative;
+    top:50%;
+    transform: translate(0%,-50%);
+    padding-right:0;
+    float:right;
+}
+#card{
+    background-color:transparent;
+    box-shadow:0px 0px 9px rgb(0, 0, 0, 0.16);
+    transition: .5s ease;
+}
+#shadow{
+    background-color:#748779;
+    box-shadow:0px 0px 9px rgb(0, 0, 0, 0.16);
+}
+.poeLink{
+    cursor: pointer;
+    margin-bottom:0.1rem;
+}
+.poeLink:hover{
+    color:rgb(97, 109, 119);
+}
+.noTopPadding{
+    padding-top:0;
+}
+.card-deck a{
+    color:#6c757d;
+    text-decoration: none;
+}
+.card-deck a:hover{
+    color:#a6b6c5 !important;
+}
+.card-deck a:hover .imgasi{
+    color:#a6b6c5 !important;
+    width:99%;
+    height:auto;
+    transition: .5s ease;
+    transform:translate(1%,1%);
+}
+.clearSpace{
+    height:80px;
+}
+@media screen and (max-width: 1200px) {
+    .container{
+        max-width:100% !important;
+    }
+    .displayText{
+        font-size:3rem !important;
+    }
+    .productTitle{
+        font-size:1rem;
+    }
+    .sectionTitleText{
+
+    }
+}
+@media screen and (max-width: 767px){
+    .row{
+        text-align:center;
+    }
+    footer{
+        height:auto;
+    }
+    .bottomLinks{
+        text-align:left;
+        width:100%; 
+        padding:0;
+        cursor: pointer;
+        margin-bottom:0.5rem;
+        font-size:16px;
+        top:0;
+        transform:translate(0%,0%);
+    }
+    .bottomInfo{
+        top:0;
+        transform:translate(0%,0%);
+        float:left;
+        font-size:16px;
+        padding-bottom:1rem;
+    }
+    #footerCol{
+        padding-top:2rem;
+    }
+    .navbar {
+        min-height:76px;
+    }
+}
+@media screen and (max-width: 575px){
+    .productTitle{
+        font-size:1.4rem;
+    }
+}
+@media screen and (max-width: 500px){
+    .row{
+        text-align:center;
+    }
+}
