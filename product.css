@@ -53,10 +53,6 @@ nav a{
 #middleRight{
     margin-left:30px;
 }
-.bottomLinks{
-    margin-right:2rem;
-    cursor: pointer;
-}
 #card{
     background-color:transparent;
     box-shadow:0px 0px 9px rgb(0, 0, 0, 0.16);
