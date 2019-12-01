@@ -124,6 +124,9 @@ footer{
     padding-right:0;
     float:right;
 }
+.navArrow{
+    float:right;
+}
 @media screen and (max-width: 1200px) {
     .container{
         max-width:100% !important;
@@ -176,9 +179,6 @@ footer{
         min-height:76px;
     }
     
-}
-.navArrow{
-    float:right;
 }
 @media screen and (max-width: 500px){
     .row{

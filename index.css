@@ -153,9 +153,6 @@ footer{
     .productTitle{
         font-size:1rem;
     }
-    .sectionTitleText{
-
-    }
 }
 @media screen and (max-width: 767px){
     .row{
